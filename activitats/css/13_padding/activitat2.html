@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Columna </title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7e0;
+   
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenidor {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 900px;
+    
+  }
+
+  .columna h2 {
+    font-size: 4.5em;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+    
+    
+  }
+
+  .columna p {
+    margin-bottom: 0px;
+    line-height: 1.5;
+    color: #686767;
+    font-size: 15px;
+    display: flex;
+  flex-direction: column;
+  }
+  .numero {
+    font-size:  40px;
+    font-weight: bold;
+  
+  }
+
+  .colorblau{
+    color: #026a6a;
+    display: inline-block;
+    margin-bottom: 17px;
+  }
+
+  .boto {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #038282;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-top: auto;
+  }
+
+  .llista{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 100px;
+
+  }
+  .llista li{
+     position: relative;
+    padding-left: 35px;  
+    margin-bottom: 25px;
+    color: rgb(91, 91, 91);
+  }
+
+  .llista li::before{
+    content: "✔";       
+  color: #038282;    
+  position: absolute; 
+  left: 0;
+  }
+
+  a.acerca {
+    text-decoration: underline;
+    color: #026a6a;
+    font-size: 1em;
+  }
+</style>
+</head>
+<body>
+
+<div class="contenidor">
+  <div class="columna">
+    <h2>Premium</h2>
+    <p>Funciones avanzadas para profesionales que necesitan más personalización</p>
+    <p>Desde</p><br>
+    <a class="numero">$299</a> 
+    <p>/mesbasado en 10.000 contactos*</p>
+    <a class="colorblau">Cuantos contactos tienes?</a><br>
+    <a class="boto">Compra ahora</a>
+    <p>Todo lo que incluye el plan Standard, más:</p>
+    <ul class="llista">
+      <li>Segmentación avanzada</li>
+      <li>Pruebas multivariantes</li>
+      <li>Informes comparativos</li>
+      <li>Puestos limitados y acceso basado en funciones</li>
+      <li>Asistencia técnica telefónica</li>
+    </ul>
+    <a class="acerca">Acerca de Premium</a>
+  </div>
+</div>
+
+</body>
+</html>
