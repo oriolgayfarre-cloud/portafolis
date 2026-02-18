@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input:focus {
+            outline: none;
+            border-color: transparent;
+            box-shadow: 0 0 8px #3b369b33;
+            transform: scale(1.05);
+        }
+        button{
+            background-color: blue;
+        }
+        
+        button:focus {
+            outline: none;
+            background-color: #eee;
+        }
+
+    </style>
+</head>
+<body>
+     <form >
+
+        <label for="nom">Nombre:</label>
+        <input type="text" name="nom">
+        <br><br>
+
+        <label for="telefon">Telefon:</label>
+        <input type="number" name="telefon">
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
