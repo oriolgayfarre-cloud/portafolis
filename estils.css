@@ -70,3 +70,33 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+ .horari {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  .horari th, .horari td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+  }
+  .capçalera {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .classe {
+    background-color: #c8e6c9;
+  }
+  .entreno {
+    background-color: #bbdefb;
+  }
+  .marracos {
+    background-color: #e1bee7;
+  }
+  .deures {
+    background-color: #ffe0b2;
+  }
+  .dinar {
+    background-color: #fff9c4;
+  }
